@@ -46,7 +46,7 @@ try:
 	print(Fore.CYAN+'├╼[1]-'+Fore.GREEN+' Virgin radio                         RMC radio '+Fore.CYAN+'-[5]╾┤')
 	print(Fore.CYAN+'├╼[2]-'+Fore.GREEN+' Skyrock radio                     France inter '+Fore.CYAN+'-[6]╾┤')
 	print(Fore.CYAN+'├╼[3]-'+Fore.GREEN+' Nrj radio                         Virgin Tonic '+Fore.CYAN+'-[7]╾┤')
-	print(Fore.CYAN+'├╼[4]-'+Fore.GREEN+' Europe1 radio                        ┊')
+	print(Fore.CYAN+'├╼[4]-'+Fore.GREEN+' Europe1 radio                                       '+Fore.CYAN+'┊')
 	print(Fore.CYAN+'┊                                                          ┊')
 	print(Fore.CYAN+'┊                                                          ┊')
 	print(Fore.CYAN+'└┄┄┄┄┄┄┄┄┄┄┄┄┄╼['+Fore.RED+' Developed by Ghostboy-287 '+Fore.CYAN+']╾┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘')
@@ -62,41 +62,41 @@ try:
 		    play.wait()
 
 
-		while True: 
-			choice = input(Fore.BLUE+'\n\nVeuillez choisir une radio [example: 1 ; ou virgin] : ~$ '+Fore.RESET)
-			if choice == '1' or choice.lower() == "virgin":
-			    play = subprocess.Popen(['mplayer', Virgin, Skyrock, Nrj, Europe1, RMC, Franceinter, Tonic,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '2' or choice.lower() == "skyrock":
-			    play = subprocess.Popen(['mplayer', Skyrock, Nrj, Europe1, RMC, Franceinter, Tonic, Virgin,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '3' or choice.lower() == "nrj":
-			    play = subprocess.Popen(['mplayer', Nrj, Europe1, RMC, Franceinter, Tonic, Virgin, Skyrock,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '4' or choice.lower() == "europe1":
-			    play = subprocess.Popen(['mplayer', Europe1, RMC, Franceinter, Tonic, Virgin, Skyrock, Nrj,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '5' or choice.lower() == "rmc":
-			    play = subprocess.Popen(['mplayer', RMC , Franceinter, Tonic, Virgin, Skyrock, Nrj, Europe1,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '6' or choice.lower() == "franceinter":
-			    play = subprocess.Popen(['mplayer', Franceinter, Tonic, Virgin, Skyrock, Nrj, Europe1, RMC,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '7' or choice.lower() == "tonic":
-			    play = subprocess.Popen(['mplayer', Tonic, Virgin, Skyrock, Nrj, Europe1, RMC ,Franceinter,])
-			    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
-			    pwait()
-			elif choice == '0' or choice.lower() == "exit" or choice.lower() == "quitter" or choice.lower() == "q":
-			    exit(Fore.YELLOW+"\n\t[x] Bye Bye! et à la prochaine ^^ "+Fore.RESET)
-			    continue
-			else: 
-				print(Fore.RED+'\n\t\n[!] Veuillez entrer un chiffre/nom de la liste!'+Fore.WHITE)
+	while True: 
+		choice = input(Fore.BLUE+'\n\nVeuillez choisir une radio [example: 1 ; ou virgin] : ~$ '+Fore.RESET)
+		if choice == '1' or choice.lower() == "virgin":
+		    play = subprocess.Popen(['mplayer', Virgin, Skyrock, Nrj, Europe1, RMC, Franceinter, Tonic,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '2' or choice.lower() == "skyrock":
+		    play = subprocess.Popen(['mplayer', Skyrock, Nrj, Europe1, RMC, Franceinter, Tonic, Virgin,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '3' or choice.lower() == "nrj":
+		    play = subprocess.Popen(['mplayer', Nrj, Europe1, RMC, Franceinter, Tonic, Virgin, Skyrock,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '4' or choice.lower() == "europe1":
+		    play = subprocess.Popen(['mplayer', Europe1, RMC, Franceinter, Tonic, Virgin, Skyrock, Nrj,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '5' or choice.lower() == "rmc":
+		    play = subprocess.Popen(['mplayer', RMC , Franceinter, Tonic, Virgin, Skyrock, Nrj, Europe1,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '6' or choice.lower() == "franceinter":
+		    play = subprocess.Popen(['mplayer', Franceinter, Tonic, Virgin, Skyrock, Nrj, Europe1, RMC,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '7' or choice.lower() == "tonic":
+		    play = subprocess.Popen(['mplayer', Tonic, Virgin, Skyrock, Nrj, Europe1, RMC ,Franceinter,])
+		    print(Fore.GREEN+"\n  [<] : précédent \t[enter or >] : suivant \t[p or space] : pause \t[escap or q] : quitter\n"+Fore.RESET)
+		    pwait()
+		elif choice == '0' or choice.lower() == "exit" or choice.lower() == "quitter" or choice.lower() == "q":
+		    exit(Fore.YELLOW+"\n\t[x] Bye Bye! et à la prochaine ^^ "+Fore.RESET)
+		    continue
+		else: 
+			print(Fore.RED+'\n\t\n[!] Veuillez entrer un chiffre/nom de la liste!'+Fore.WHITE)
 
 
 except (KeyboardInterrupt, SystemExit):
