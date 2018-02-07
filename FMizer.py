@@ -1,7 +1,7 @@
 #!/usr/bin/python3 
 # -*- coding: utf-8 -*-
 # __version__ = '0.1'
-# __author__ = 'Ghostboy-287'
+# __author__ = 'mIcHyAmRaNe'
 # __Greetz to__ = 'boatsnbros & D0tix & ecouter-en-direct.com'
 
 try:
@@ -49,7 +49,7 @@ try:
 	print(Fore.CYAN+'├╼[4]-'+Fore.GREEN+' Europe1 radio                                       '+Fore.CYAN+'┊')
 	print(Fore.CYAN+'┊                                                          ┊')
 	print(Fore.CYAN+'┊                                                          ┊')
-	print(Fore.CYAN+'└┄┄┄┄┄┄┄┄┄┄┄┄┄╼['+Fore.RED+' Developed by Ghostboy-287 '+Fore.CYAN+']╾┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘')
+	print(Fore.CYAN+'└┄┄┄┄┄┄┄┄┄┄┄┄┄╼['+Fore.RED+' Developed by mIcHyAmRaNe '+Fore.CYAN+']╾┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘')
 
 	def pwait():
 		try:
